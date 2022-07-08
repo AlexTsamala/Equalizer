@@ -6,7 +6,176 @@ box-sizing: border-box;
 }
 
 body{
-/* display: flex;
+font-family: IBM Plex Sans;
+background-image: url(./assets/bg-main-mobile.png);
+background-position: top -250px left 0px;
+background-repeat: no-repeat;
+}
+
+.main-container{
+display: flex;
 align-items: center;
-flex-direction: column; */
+flex-direction: column;   
+
+}
+
+header{
+margin:40px 24px 68px 24px;
+}
+
+.equalizer-picture{
+margin-bottom:64px;    
+}
+
+h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+padding-bottom:20px;
+max-width:387px; 
+}
+
+.text{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.header-text{
+max-width:331px;
+}
+
+.middle-background{
+background: #191826;
+text-align: center;
+border-radius: 12px;
+width:100%;
+}
+
+.mobile{
+width:209px;
+height:430px;
+margin-bottom: -370px;
+z-index: 1;
+}
+
+.Premium-EQ{
+background:#FA7453;
+border-radius: 12px;    
+Height:546px;
+color: #FCFAF9;
+margin-top:-50px;
+padding-left: 36px;
+}
+
+.Premium-EQ-header{
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+padding-bottom:12px;
+padding-top:48px;
+}
+
+.Premium-EQ-text{
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+margin-bottom:45px;
+}
+
+.price{
+margin-bottom:32px;
+}
+
+.price4{
+font-size: 65px;
+font-weight: 700;
+line-height: 52px;
+}
+
+.month{
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.buttons{
+max-width:595px;
+}
+
+.apple-button{
+width: 296px;
+height: 61px;
+background: #191826;
+color:white;
+border-radius: 12px;
+Font:IBM Plex Sans;
+font-Weight:700;
+font-Size:18px;
+Line-height:32px;
+margin-bottom: 16px;
+}
+
+.android-button{
+width: 296px;
+height:61px;
+background: #FCFAF9;
+border-radius: 12px;
+Font:IBM Plex Sans;
+font-Weight:700;
+font-Size:18px;
+Line-height:32px;
+}
+
+.apple-icon{
+margin-bottom:-3px;
+margin-right:8px;
+}
+
+.android-icon{
+margin-bottom:-3px;
+margin-right:8px;
+}
+
+footer{
+height:397px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 25px;    
+}
+
+.equalizer-picture-2{
+padding-bottom:32px;    
+}
+
+.footer-text{
+max-width: 298px;
+}
+
+.social-media {
+display: flex;
+column-gap: 20px;
+padding-top: 66px;
+}
+
+.social-media i{
+font-size:20px;
+}
+
+.social-media i:hover{
+color:#FA7453;
+}
+
+.apple-button:hover{
+background:#66E2DC;    
+}
+
+.android-button:hover{
+background:#FFB964;    
+}
+
+@media (min-width: 768px){
+    
 }
