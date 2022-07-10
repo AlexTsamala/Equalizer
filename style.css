@@ -12,6 +12,11 @@ background-position: top -250px left 0px;
 background-repeat: no-repeat;
 }
 
+.different-figures{
+display:none;
+transform: translate(65px,-90px);    
+}
+
 .main-container{
 display: flex;
 align-items: center;
@@ -21,6 +26,7 @@ flex-direction: column;
 
 header{
 margin:40px 24px 68px 24px;
+display:flex;
 }
 
 .equalizer-picture{
@@ -177,5 +183,138 @@ background:#FFB964;
 }
 
 @media (min-width: 768px){
-    
+
+body{   
+background-image: url(./assets/bg-main-tablet.png);
+background-position: top -250px left -340px;
+background-repeat: no-repeat;
+}
+
+.different-figures{
+display:block;    
+}
+
+.equalizers-top-div{
+margin-left:39px;    
+}
+
+h1{
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+max-width: 520px
+}
+
+.header-text{
+max-width:514px;    
+}
+
+.text{
+font-size:18px;
+}
+
+.middle-background{
+height: 600px;
+width: 90%;
+border-radius: 12px;
+margin-left:33px;    
+}
+
+.mobile{
+margin-right: 305px;
+Width: 270.21px;
+Height: 556px;
+margin-bottom: -435px 
+}
+
+.Premium-EQ{
+margin-top: -430px;
+margin-left: 170px;
+z-index:1;
+width:399px;
+height:546px;
+}
+footer{
+padding: 39px;
+margin-left: 34px;
+}
+
+.social-media i{
+font-size:30px;    
+}
+
+.footer-text{
+max-width: 363px;
+}
+
+.social-media{
+display: flex;
+column-gap: 20px;
+align-items: center;
+padding-top:0;   
+}
+
+.info{
+display: flex;
+flex-direction: row;
+max-width: 43.5rem;
+gap: 14rem;
+margin: 2rem 0 5rem;
+}    
+}
+
+
+
+@media (min-width: 1440px){
+
+body{
+background-image: url(./assets/bg-main-desktop.png);
+background-position: top -250px left -340px;
+background-repeat: no-repeat;    
+}
+
+h1 {
+font-weight: 700;
+font-size: 88px;
+line-height: 88px;
+max-width: 1015px;
+}
+
+.header-text{
+max-width: 825px;    
+}
+
+.different-figures {
+transform: translateY(-83px);
+}
+
+.Premium-EQ {
+margin-top: -470px;
+margin-left: 590px;
+}
+
+.mobile{
+margin-right: 394px;    
+}
+
+footer{
+display: flex;
+flex-direction: row;
+align-items: center;     
+}
+
+.footer-text{
+max-width:366px ;    
+}
+
+.info{
+max-width:1000px;
+width:1000px;
+display: flex;
+justify-content:space-between;    
+}
+
+.equalizer-picture-2{
+margin-right:150px;    
+}
 }
